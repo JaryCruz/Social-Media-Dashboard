@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Social Media Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <div class="overlay"></div>
+    <div class="container">
+      <header>
+        <div class="header-title">
+          <h1>Social Media Dashboard</h1>
+          <p class="thick-p">Total Followers: 23,004</p>
+          <hr>
+        </div>
+        <div class="header-switch">
+          <p class="thick-p">Dark Mode</p>
+          <div class="toggle">
+            <input type="checkbox" id="toggle"/>
+            <label for="toggle"></label>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Cards -->
+      <section class="grid-cards">
+        <div class="card card-facebook">
+          <div class="profile-info">
+            <img src="images/icon-facebook.svg" alt="">
+            <p class="thick-p">@nathanf</p>
+          </div>
+          <p class="big-num">1987</p>
+          <p class="thin-p">Followers</p>
+          <div class="profile-info">
+            <img src="images/icon-up.svg" alt="">
+            <span class="positive-p">12 Today</span>
+          </div>
+        </div>
+
+        <div class="card card-twitter">
+          <div class="profile-info">
+            <img src="images/icon-twitter.svg" alt="">
+            <p class="thick-p">@nathanf</p>
+          </div>
+          <p class="big-num">1044</p>
+          <p class="thin-p">Followers</p>
+          <div class="profile-info">
+            <img src="images/icon-up.svg" alt="">
+            <span class="positive-p">99 Today</span>
+          </div>
+        </div>
+
+        <div class="card card-instagram fa-2x">
+          <div class="profile-info">
+            <img src="images/icon-instagram.svg" alt="">
+            <p class="thick-p">@realnathanf</p>
+          </div>
+          <p class="big-num">11k</p>
+          <p class="thin-p">Followers</p>
+          <div class="profile-info">
+            <img src="images/icon-up.svg" alt="">
+            <span class="positive-p">1099 Today</span>
+          </div>
+        </div>
+
+        <div class="card card-youtube fa-2x">
+          <div class="profile-info">
+            <img src="images/icon-youtube.svg" alt="">
+            <p class="thick-p">Nathan F.</p>
+          </div>
+          <p class="big-num">8239</p>
+          <p class="thin-p">Subscribers</p>
+          <div class="profile-info">
+            <img src="images/icon-down.svg" alt="">
+            <span class="negative-p">144 Today</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sub Cards Section -->
+      <section>
+        <h2>Overview - Today</h2>
+
+        <div class="grid-cards">
+          <!-- Facebook Sub-cards -->
+          <div class="sub-card">
+            <div class="card-stat">
+              <p class="thick-p">Page Views</p>
+              <img src="images/icon-facebook.svg" alt="">
+            </div>
+
+            <div class="card-stat">
+              <p class="medium-p">87</p>
+              <div class="profile-info">
+                <img src="images/icon-up.svg" alt="">
+                <span class="positive-p">3%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-card">
+            <div class="card-stat">
+              <p class="thick-p">Likes</p>
+              <img src="images/icon-facebook.svg" alt="">
+            </div>
+            
+            <div class="card-stat">
+              <p class="medium-p">52</p>
+              <div class="profile-info">
+                <img src="images/icon-down.svg" alt="">
+                <span class="negative-p">2%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Instagram Sub-cards -->
+          <div class="sub-card">
+            <div class="card-stat">
+              <p class="thick-p">Likes</p>
+              <img src="images/icon-instagram.svg" alt="">
+            </div>
+
+            <div class="card-stat">
+              <p class="medium-p">5462</p>
+              <div class="profile-info">
+                <img src="images/icon-up.svg" alt="">
+                <span class="positive-p">2257%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-card">
+            <div class="card-stat">
+              <p class="thick-p">Profile Views</p>
+              <img src="images/icon-instagram.svg" alt="">
+            </div>
+
+            <div class="card-stat">
+              <p class="medium-p">52k</p>
+              <div class="profile-info">
+                <img src="images/icon-up.svg" alt="">
+                <span class="positive-p">1375%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Twitter Sub-cards -->
+          <div class="sub-card">
+            <div class="card-stat">
+              <p class="thick-p">Retweets</p>
+              <img src="images/icon-twitter.svg" alt="">
+            </div>
+            
+            <div class="card-stat">
+              <p class="medium-p">117</p>
+              <div class="profile-info">
+                <img src="images/icon-up.svg" alt="">
+                <span class="positive-p">303%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-card">
+            <div class="card-stat">
+              <p class="thick-p">Likes</p>
+              <img src="images/icon-twitter.svg" alt="">
+            </div>
+            
+            <div class="card-stat">
+              <p class="medium-p">507</p>
+              <div class="profile-info">
+                <img src="images/icon-up.svg" alt="">
+                <span class="positive-p">553%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Youtube Sub-cards -->
+          <div class="sub-card">
+            <div class="card-stat">
+              <p class="thick-p">Likes</p>
+              <img src="images/icon-youtube.svg" alt="">
+            </div>
+            
+            <div class="card-stat">
+              <p class="medium-p">107</p>
+              <div class="profile-info">
+                <img src="images/icon-down.svg" alt="">
+                <span class="negative-p">19%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-card">
+            <div class="card-stat">
+              <p class="thick-p">Total Views</p>
+              <img src="images/icon-youtube.svg" alt="">
+            </div>
+            
+            <div class="card-stat">
+              <p class="medium-p">1407</p>
+              <div class="profile-info">
+                <img src="images/icon-down.svg" alt="">
+                <span class="negative-p">12%</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
